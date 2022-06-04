@@ -5,7 +5,10 @@
 </head>
 <body>
     <div>
-        <button>Start</button>
+        <x-Question 
+            :type="$type ?? 0"
+            :content="$content ?? ''"
+        />
     </div>
 </body>
 </html>
