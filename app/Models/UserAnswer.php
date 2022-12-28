@@ -9,6 +9,13 @@ class UserAnswer extends Model
 {
     use HasFactory;
 
+    /**
+     * The table associated with the model.
+     *
+     * @var string
+     */
+    protected $table = 'user_answers';
+
     protected $casts = [
         'answer_ids' => 'array'
     ];
