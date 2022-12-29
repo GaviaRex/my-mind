@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Question;
+use App\Http\Livewire\Quiz;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +23,10 @@ Route::get('/my-mind', function () {
     return view('my-mind');
 });
 
-Route::get('/quiz', function () {
-    return view('quiz');
+Route::get('/quiz-menu', function () {
+        return view('quiz-menu');
 });
+
+//Livewire routes
+Route::get('/quiz', Quiz::class);
+Route::get('/question', Question::class);
