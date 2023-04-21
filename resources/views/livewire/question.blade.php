@@ -28,7 +28,7 @@
                 @foreach ($answers as $answer)
                 <div class="p-6 border-t border-gray-200 dark:border-gray-700">
                     <div class="flex items-center">
-                        <button wire:click="answer">{{ $answer->content }}</button>
+                        <button wire:click="answer({{$answer->type}})">{{ $answer->content }}</button>
                     </div>
                 </div>
                 @endforeach

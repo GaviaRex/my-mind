@@ -10,6 +10,11 @@ Database structure:
         - user_answers
         - moral_theories
 
+    - TODO
+        -Show questions and the users answers as a cool graph
+        -Clean up code
+        -Make sure setup works
+
 ## Contributing
 
 Only GaviaRex is allowed to contribute

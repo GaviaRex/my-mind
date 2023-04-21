@@ -28,5 +28,10 @@ class QuestionSeeder extends Seeder
             'theme' => 1, //Ethics
             'content' => "Axe murderer: A man carrying an axe is knocks on your door demanding to the location of your friend who is hiding in your room. What will you do?"
         ]);
+
+        DB::table('questions')->insert([
+            'theme' => 1, //Ethics
+            'content' => "Axe murderer: A man carrying an axe is knocks on your door demanding to the location of your friend who is hiding in your room. What will you do?"
+        ]);
     }
 }
